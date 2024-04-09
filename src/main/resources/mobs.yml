@@ -1,0 +1,23 @@
+player:
+  souls: 10
+  permissions:
+    vipone:
+      bonus: 1.0
+    viptwo:
+      bonus: 2.0
+
+mobs:
+  ZOMBIE:
+    souls: 1
+    permissions:
+      vipone:
+        bonus: 0.15
+      viptwo:
+        bonus: 0.30
+  SPIDER:
+    souls: 10
+    permissions:
+      vipone:
+        bonus: 3
+      viptwo:
+        bonus: 5

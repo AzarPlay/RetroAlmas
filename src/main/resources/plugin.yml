@@ -1,0 +1,8 @@
+name: RetroAlmas
+version: '${project.version}'
+main: dev.azarplay_polar.retroalmas.RetroAlmas
+commands:
+  souls:
+    aliases:
+      - almas
+    description: "Comando de almas"

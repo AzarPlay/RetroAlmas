@@ -1,0 +1,11 @@
+database:
+
+  host: "node22.elgaehost.com.br"
+  port: 3306
+  database: "s2132_almas"
+  user: "u2132_r9b7q9WY0l"
+  password: "OSSk^ULAUNA4ckZTHI4!nPB4"
+utils:
+  actionbar:
+    use: true
+    message: "&aVocê ganhou um total de &c@souls. &aBonus: &c@bonus%"

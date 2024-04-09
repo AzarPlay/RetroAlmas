@@ -1,0 +1,182 @@
+# Home e o principal menu e onde ficara todos os itens.
+home:
+  title: "Central de Almas"
+  rows: 4
+  itens:
+    player_head:
+      id: 1
+      slot: 5
+      name: "Player Head"
+      head: true
+      lore:
+        - "Adquira os efeitos do servidor!"
+        - "Clique para adquirir."
+      glow: false
+    shop:
+      id: 386
+      slot: 21
+      name: "&eShop"
+      head: false
+      lore:
+        - "Compre itens para seu servidor!"
+        - "Clique para abrir o menu!"
+      glow: false
+      command: "souls shop"
+    effects:
+      id: 377
+      slot: 23
+      name: "&eEfeitos"
+      head: false
+      lore:
+        - "Adquira os efeitos do servidor!"
+        - "Clique para adquirir."
+      glow: true
+      command: "souls effects"
+    description:
+      id: 339
+      slot: 25
+      name: "&eDescrição"
+      head: false
+      lore:
+        - "Adquira os efeitos do servidor!"
+        - "Clique para adquirir."
+      glow: false
+
+effects:
+  title: "Efeitos de Almas"
+  rows: 4
+  itens:
+    apolo:
+      id: 368
+      slot: 11
+      name: "&aAlma de Apolo"
+      head: false
+      lore:
+        - "Esse efeito te permite ter uma chance de 45%"
+        - "para você não receber o dano da ender pearl"
+        - ""
+        - "&fPreço: &220.00K &7almas"
+      glow: false
+    zeus:
+      id: 369
+      slot: 12
+      name: "&aAlma de Zeus"
+      head: false
+      lore:
+        - "Esse efeito te permite ter uma chance de 5%"
+        - "para jogar um raio na cabeça de seu inimigo"
+        - ""
+        - "&fPreço: &220.00K &7almas"
+      glow: false
+    osiris:
+      id: 331
+      slot: 13
+      name: "&aAlma de Osíris"
+      head: false
+      lore:
+        - "Esse efeito te permite ter uma chance de 10%"
+        - "para você receber 2 corações de vida"
+        - "após levar dano."
+        - ""
+        - "&fPreço: &220.00K &7almas"
+      glow: false
+    kratos:
+        id: 399
+        slot: 14
+        name: "&aAlma de Kratos"
+        head: false
+        lore:
+          - "Esse efeito te permite ter uma chance de 8%"
+          - "para você ganhar força instantanea III"
+          - ""
+          - "&fPreço: &220.00K &7almas"
+        glow: false
+    voltar:
+      id: 262
+      slot: 32
+      name: "&aVoltar"
+      head: false
+      lore:
+        - "Voltar para pagina principal!"
+      glow: false
+      command: souls
+
+shop:
+  title: "Shop de Almas"
+  rows: 6
+  itens:
+    capacete:
+      id: 310
+      slot: 11
+      name: "&bArmadura"
+      head: false
+      lore:
+        - "Prepare-se, essa armadura não é para qualquer um..."
+        - ""
+        - "Preço: &f5.50K &7almas"
+      glow: true
+
+    peitoral:
+      id: 311
+      slot: 12
+      name: "&bArmadura"
+      head: false
+      lore:
+        - "Prepare-se, essa armadura não é para qualquer um..."
+        - ""
+        - "&7Preço: &f5.50K &7almas"
+      glow: true
+
+    calca:
+      id: 312
+      slot: 13
+      name: "&bArmadura"
+      head: false
+      lore:
+        - "Prepare-se, essa armadura não é para qualquer um..."
+        - ""
+        - "&7Preço: &f5.50K &7almas"
+      glow: true
+
+    bota:
+      id: 313
+      slot: 14
+      name: "&bArmadura"
+      head: false
+      lore:
+        - "Prepare-se, essa armadura não é para qualquer um..."
+        - ""
+        - "&7Preço: &f5.50K &7almas"
+      glow: true
+
+    espada:
+       id: 276
+       slot: 15
+       name: "&bEspada"
+       head: false
+       lore:
+         - "Prepare-se, essa espada não é para qualquer..."
+         - ""
+         - "&7Preço: &f5.00K &7almas"
+       glow: true
+
+    picareta:
+      id: 278
+      slot: 16
+      name: "&bEspada"
+      head: false
+      lore:
+        - "Prepare-se, essa espada não é para qualquer..."
+        - ""
+        - "&7Preço: &f6.00K &7almas"
+      glow: true
+
+    voltar:
+      id: 262
+      slot: 50
+      name: "&aVoltar"
+      head: false
+      lore:
+        - "Voltar para pagina principal!"
+      glow: false
+      command: souls
